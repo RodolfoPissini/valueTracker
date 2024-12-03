@@ -1,0 +1,9 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  initial_value: 9.99
+  remaining_value: 9.99
+
+two:
+  initial_value: 9.99
+  remaining_value: 9.99
