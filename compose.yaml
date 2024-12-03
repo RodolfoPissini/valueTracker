@@ -1,0 +1,10 @@
+services:
+  web:
+    build: .
+    command: /bin/bash -c "echo 'Acesse o aplicativo em http://localhost:4000' && bundle exec rails s -b '0.0.0.0' -p 4000"
+    volumes:
+      - .:/myapp
+    ports:
+      - "4000:4000"
+    environment:
+      - SECRET_KEY_BASE=a98460df6ce9726a3c4db0d1bf06db780b65776b3d9c4e8c254338f167873f438bd04f337e43bcd420b3490800c7c7309d981fbdaa20b9d6621d2cd1a77ef054
